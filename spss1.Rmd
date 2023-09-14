@@ -1,0 +1,114 @@
+---
+title: "第1讲SPSS 图形工具"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: yes
+    number_sections: no
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,comment="")
+```
+
+# **视频资源**
+
+## SPSS入门知识
+
+-   [SPSS导入Excel文件](https://www.bilibili.com/video/BV1N541177z6/)    
+
+-   [SPSS 主菜单](https://www.bilibili.com/video/BV1Hz4y1o7HD/) 
+
+## 定量数据的图表工具
+
+-   [SPSS 简单箱线图](https://www.bilibili.com/video/BV1Bt4y1v7vP/)
+
+-   [SPSS 簇状箱线图](https://www.bilibili.com/video/BV1xK4y1h7xr/)
+
+-   [SPSS 直方图](https://www.bilibili.com/video/BV1Up4y1r7aV/)
+
+-   [SPSS 分组直方图](https://www.bilibili.com/video/BV1Fr4y1F7RM/)
+
+-   [SPSS 探索工具](https://www.bilibili.com/video/BV1af4y1B7Bi/)
+
+-   [SPSS 报告数值型数据的频数分布表](https://www.bilibili.com/video/BV1sK411G736/)
+
+## 定性数据的图表工具
+
+-   [SPSS 帕累托图](https://www.bilibili.com/video/BV1HD4y1d7i6/)
+
+-   [SPSS 简单条形图](https://www.bilibili.com/video/BV1HZ4y1L7kT/)
+
+-   [SPSS 簇状条形图](https://www.bilibili.com/video/BV12A41177Wh/)
+
+-   [SPSS 堆积条形图](https://www.bilibili.com/video/BV1yp4y1r7hv/)
+
+-   [SPSS 交叉表](https://www.bilibili.com/video/BV1yi4y1j7Xi/)
+
+## 其他
+
+-   [SPSS
+    条形图------呈现不同组别的数据特征](https://www.bilibili.com/video/BV1G541177t7/)
+
+# **习题1**
+
+数据文件：毕业生.xlsx
+
+-   百度网盘\< <https://pan.baidu.com/s/1ESQiXRqTTSrmPVAN9HCnSQ>\>
+
+    提取码: 9kqr
+
+1.1 绘制毕业生的专业分布的频数分布表、饼图。
+
+1.2 绘制毕业生政治面貌分布的频数分布表、条形图、帕累托图。
+
+1.3 绘制毕业生政治面貌和性别的列联表，报告行的百分比，列的百分比。
+
+1.4 将毕业生按单位类型分组，绘制各个组别毕业生月薪的直方图。
+
+1.5 将毕业生按是否在广州就业分组，绘制两个组别毕业生月薪的直方图。
+
+1.6
+将毕业生按政治面貌分组，绘制4个组别毕业生月薪的箱线图。请简要描述四个组别毕业生薪酬的分布特征。
+
+1.7
+将毕业生生源地是否在广州，就业地是否在广州分成4个组别，绘制各个组别毕业生薪酬的箱线图。
+
+1.8
+绘制物流管理专业毕业生月薪的茎叶图。请简要描述该专业毕业生月薪分布的特征。（提示：单击SPSS主菜单分析\\描述统计\\探索，图...勾选茎叶图）
+
+# **习题2**
+
+数据文件：telco.sav 
+
+telco.sav文件在SPSS安装目录下, 也可搜索文件名找到该文件。
+
+sample
+files简介：<https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files>
+
+2.1.
+绘制1000名电信客户学历(ed)分布的饼图，在扇区上标注出各个学历的百分比。
+
+2.2.
+绘制1000名电信客户性别和学历的列联表，报告频数、行的百分比、列的百分比。
+
+2.3.
+利用堆积条形图，反映男性和女性客户学历分布的差异，在图中标注出各组别人数。
+
+2.4. 按学历对电信客户分组，绘制各组别客户年龄分布的茎叶图。
+
+2.5.
+绘制1000名电信客户年龄分布的直方图，将组距设置为5，在图中标注各个分组区间的频数。
+
+2.6.
+绘制1000名电信客户入网时长(tenure)的箱线图。其分布是对称、左偏还是右偏？
+
+2.7.按是否退休(Retired)将电信客户分成两组，分别绘制入网时长的箱线图。比较两个组别的人群入网时长的分布差异。
+
+2.8.
+按性别、是否退休将电信客户分组，分别各个组别的绘制长途话费（longmon）的箱线图。比较四个组别的人群长途话费的分布差异。
