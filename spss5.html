@@ -10,11 +10,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta name="author" content="Li Zongzhang" />
 
 <meta name="date" content="2023-10-27" />
 
-<title>统计学</title>
+<title>第5讲 区间估计</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -57,8 +56,7 @@ code span.ot { color: #007020; }
 
 
 <section class="page-header">
-<h1 class="title toc-ignore project-name">统计学</h1>
-<h4 class="author project-author">Li Zongzhang</h4>
+<h1 class="title toc-ignore project-name">第5讲 区间估计</h1>
 <h4 class="date project-date">2023-10-27</h4>
 </section>
 
@@ -66,391 +64,27 @@ code span.ot { color: #007020; }
 <div id="TOC" class="toc">
 <div class="toc-box">
 <ul>
-<li><a href="#教学资源" id="toc-教学资源"><strong>教学资源</strong></a></li>
-<li><a href="#案例和实验" id="toc-案例和实验"><strong>案例和实验</strong></a></li>
-<li><a href="#理论课素材" id="toc-理论课素材"><strong>理论课素材</strong></a>
-<ul>
-<li><a href="#第1章" id="toc-第1章">第1章</a></li>
-<li><a href="#第2章" id="toc-第2章">第2章</a></li>
-<li><a href="#第3章" id="toc-第3章">第3章</a></li>
-<li><a href="#第4章" id="toc-第4章">第4章</a></li>
-<li><a href="#第6章" id="toc-第6章">第6章</a></li>
-<li><a href="#第7章" id="toc-第7章">第7章</a></li>
-<li><a href="#第8章" id="toc-第8章">第8章</a></li>
-<li><a href="#第9章" id="toc-第9章">第9章</a></li>
-<li><a href="#第10章" id="toc-第10章">第10章</a></li>
-<li><a href="#第11章" id="toc-第11章">第11章</a></li>
-<li><a href="#第13章" id="toc-第13章">第13章</a></li>
-<li><a href="#第14章" id="toc-第14章">第14章</a></li>
-<li><a href="#复习" id="toc-复习">复习</a></li>
-</ul></li>
-<li><a href="#实验课素材" id="toc-实验课素材"><strong>实验课素材</strong></a>
-<ul>
-<li><a href="#第1讲-spss图表工具" id="toc-第1讲-spss图表工具">第1讲
-SPSS图表工具</a></li>
-<li><a href="#第2讲-spss描述性统计量的计算" id="toc-第2讲-spss描述性统计量的计算">第2讲
-SPSS描述性统计量的计算</a></li>
-<li><a href="#第3-4讲-三大分布" id="toc-第3-4讲-三大分布">第3-4讲
-三大分布</a></li>
-<li><a href="#第5讲-区间估计" id="toc-第5讲-区间估计">第5讲
-区间估计</a></li>
-</ul></li>
+<li><a href="#视频资源" id="toc-视频资源"><strong>视频资源</strong></a></li>
+<li><a href="#习题" id="toc-习题"><strong>习题</strong></a></li>
 </ul>
 </div>
 </div>
 
 <section class="main-content">
-<style type="text/css">
-
-#TOC {
-position: fixed;
-top: 0;
-right: 0;
-height: 100%;
-width: 30%;
-overflow-y: scroll;
-padding-top: 1em;
-padding-bottom: 1em;
-}
-
-body {
-margin-right: 1%;
-}
-</style>
-<p><strong>注意：本站电子资源、视频、讲义供学习交流使用，请勿用于商业用途</strong></p>
-<div id="教学资源" class="section level1">
-<h1><strong>教学资源</strong></h1>
+<div id="视频资源" class="section level1">
+<h1><strong>视频资源</strong></h1>
 <ul>
-<li><p>教材及配套数据</p>
-<ul>
-<li><p>统计学(第8版), 贾俊平 何晓群 金勇进
-编著，中国人民大学出版社,2021.</p></li>
-<li><p>百度网盘<a href="https://pan.baidu.com/s/17qdeQpeWWw_nVtqaRoxMSQ" class="uri">https://pan.baidu.com/s/17qdeQpeWWw_nVtqaRoxMSQ</a></p>
-<p>提取码: 93a8</p></li>
-</ul></li>
-<li><p>教学软件及视频</p>
-<ul>
-<li><p>Excel 2016 或以上版本 <strong>注意：不是WPS</strong></p></li>
-<li><p>SPSS 25及以上版本</p>
-<ul>
-<li><p>Win(64位) SPSS 27安装文件百度网盘<a href="https://pan.baidu.com/s/1PJnHzmxy_xM2m4eN7ubk8w" class="uri">https://pan.baidu.com/s/1PJnHzmxy_xM2m4eN7ubk8w</a></p>
-<p>提取码: 4rbc</p></li>
-</ul></li>
-<li><p>Excel</p>
-<ul>
-<li><a href="https://space.bilibili.com/590872906/channel/collectiondetail?sid=758820">Excel数据分析实战</a></li>
-</ul></li>
-<li><p>SPSS</p>
-<ul>
-<li><a href="https://space.bilibili.com/590872906/channel/collectiondetail?sid=758395&amp;ctype=0">SPSS数据分析实战</a></li>
-</ul></li>
-</ul></li>
-<li><p>教学平台</p>
-<ul>
-<li><p>91速课(<a href="https://www.91suke.com" class="uri">https://www.91suke.com</a>)：发布作业，提交作业，测验，考勤等</p>
-<ul>
-<li><a href="https://lizongzhang.github.io/stat/91.html">在91速课中设置姓名和学号的方法</a></li>
-</ul></li>
-<li><p>QQ群：提交小组作业，提问答疑</p></li>
-</ul></li>
-<li><p>参考书</p>
-<ul>
-<li><p>百度网盘 <a href="https://pan.baidu.com/s/1Eg932WJSCl8wy6t7SNOvNg" class="uri">https://pan.baidu.com/s/1Eg932WJSCl8wy6t7SNOvNg</a></p>
-<p>提取码: 5j7h</p></li>
-</ul></li>
+<li><a href="https://www.bilibili.com/video/BV1j5411V7bn/">Excel
+区间估计中置信水平的理解</a></li>
 </ul>
 </div>
-<div id="案例和实验" class="section level1">
-<h1><strong>案例和实验</strong></h1>
-<ul>
-<li><p>提交分组信息：<a href="https://www.wjx.top/vm/e3AyWsR.aspx#" class="uri">https://www.wjx.top/vm/e3AyWsR.aspx#</a></p></li>
-<li><p>案例作业</p>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/teamwork.html">要求</a></p></li>
-<li><p>示例</p>
-<ul>
-<li><p>[第3-4章]<to be updated></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/case2.html">第7-8章</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/case3.html">第9-10章</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/case4.html">第11章</a></p></li>
-</ul></li>
-</ul></li>
-<li><p>往届学生习作</p>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/stu1.html">广东省地市领导班子特征分析</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/stu2.html">奶茶消费调查</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/stu3.html">大学生择偶观调查</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/stu4.html">证监会录用人员特征</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/stu5.html">广州市住宅房租比较</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/stu6.html">饮料特征分析</a></p></li>
-<li><p><a href="https://lizongzhang.github.io/stat/stu7.html">证券分析师</a></p></li>
-</ul></li>
-<li><p><a href="https://lizongzhang.github.io/statspss/report.html">实验报告要求</a></p></li>
-</ul>
-</div>
-<div id="理论课素材" class="section level1">
-<h1><strong>理论课素材</strong></h1>
-<div id="第1章" class="section level2">
-<h2>第1章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/statspss/chap1.html">chap
-1 导论 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV19S4y1r7E4/">如何加载EXCEL数据分析加载项？</a></li>
-</ul></li>
-<li><p>拓展资源</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1Ks4y117Em/">如何从EXCEL中直接调用ChatGPT?</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1GU4y1f7f9/">如何将WORD文档转成图片？</a></p></li>
-</ul></li>
-<li><p><a href="https://lizongzhang.github.io/statspss/1solutions.html">第1章习题答案</a></p></li>
-</ul>
-</div>
-<div id="第2章" class="section level2">
-<h2>第2章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap2.html">chap 2
-数据的搜集 讲义</a></p></li>
-<li><p>拓展资源</p>
-<ul>
-<li><p>CSMAR 国泰安经济金融数据库 <a href="http://www.gtarsc.com/Home" class="uri">http://www.gtarsc.com/Home</a></p></li>
-<li><p>中国家庭追踪调查 CFPS <a href="http://www.isss.pku.edu.cn/cfps/" class="uri">http://www.isss.pku.edu.cn/cfps/</a></p></li>
-<li><p>中国家庭金融调查数据 CHFS <a href="https://chfs.swufe.edu.cn" class="uri">https://chfs.swufe.edu.cn</a></p></li>
-<li><p>中国健康与养老数据追踪调查数据CHARLS <a href="http://charls.pku.edu.cn" class="uri">http://charls.pku.edu.cn</a></p></li>
-<li><p>暨南大学社会调查中心 <a href="https://sdc-iesr.jnu.edu.cn" class="uri">https://sdc-iesr.jnu.edu.cn</a></p></li>
-<li><p>Kaggle <a href="https://www.kaggle.com/datasets" class="uri">https://www.kaggle.com/datasets</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV19m4y1F7FE/">如何从中国知网下载统计数据？</a></p></li>
-</ul></li>
-</ul>
-</div>
-<div id="第3章" class="section level2">
-<h2>第3章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap3.html">chap 3
-数据的图表展示 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1uK4y1X752/">Excel图表工具</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1uc41177Mn/">EXCEL数据清洗系列</a></p></li>
-</ul></li>
-<li><p>拓展资源</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV18u411D7GM/">八爪鱼客户端抓取网页数据</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1HL411N7BG/">如何用Excel整理提取的网页数据？</a></p></li>
-<li><p>在线词云图工具 <a href="https://www.wordclouds.com/" class="uri">https://www.wordclouds.com/</a></p></li>
-</ul></li>
-<li><p><a href="https://www.bilibili.com/video/BV1t3411W7V9/">教材第3章习题讲评</a></p></li>
-</ul>
-</div>
-<div id="第4章" class="section level2">
-<h2>第4章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap4.html">chap 4
-数据的概括性度量 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1va411A7Db/">Excel
-计算描述性统计量的函数</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1Sy4y1r78g/">Excel
-数据分析加载项中的描述统计功能</a></p></li>
-</ul></li>
-<li><p><a href="https://www.bilibili.com/video/BV1nL411Q79r/">教材第4章习题讲评——Excel描述统计分析</a></p></li>
-</ul>
-</div>
-<div id="第6章" class="section level2">
-<h2>第6章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap6.html">chap 6
-讲义 统计量及其抽样分布</a></p>
-<ul>
-<li><p>Useful links</p>
-<ul>
-<li><p>分位数计算器 <a href="https://gallery.shinyapps.io/dist_calc/" class="uri">https://gallery.shinyapps.io/dist_calc/</a></p></li>
-<li><p>Central Limit Theorem for Means <a href="https://gallery.shinyapps.io/CLT_mean/" class="uri">https://gallery.shinyapps.io/CLT_mean/</a></p></li>
-<li><p>中心极限定理 n=2-31 <a href="https://astools.datadesk.com/clt.html" class="uri">https://astools.datadesk.com/clt.html</a></p></li>
-<li><p>Galton Board <a href="https://www.mathsisfun.com/data/quincunx.html" class="uri">https://www.mathsisfun.com/data/quincunx.html</a></p></li>
-</ul></li>
-</ul></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV19Z4y1G7qF/">Excel
-中dist inv函数的运用</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1Hi4y1L7Eg/">EXCEL
-利用norm.dist函数绘制正态分布概率密度曲线</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1F54y1k7sc/">EXCEL
-利用chisq.dist函数绘制卡方分布概率密度曲线</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1df4y1i7c9/">EXCEL
-利用t.dist函数绘制t分布概率密度曲线</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1KV41117mR/">EXCEL
-利用f.dist函数绘制F分布概率密度曲线</a></p></li>
-</ul></li>
-</ul>
-</div>
-<div id="第7章" class="section level2">
-<h2>第7章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap7.html">chap 7
-参数估计 讲义</a></p></li>
-<li><p>疑难知识点</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1j5411V7bn/">Excel
-区间估计中置信水平的理解</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1j64y1f7rY/">Excel
-总体均值的置信区间是如何构造的？</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1PV411h7rP/">总体方差的置信区间是如何构造的？</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1ea411i76G">置信水平的理解——基于R的模拟</a></p></li>
-</ul></li>
-<li><p>教材习题讲评</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1RX4y147gw/">教材第7章习题讲评7.1-7.4</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1Fo4y1P7b5/">教材第7章习题讲评7.5-7.10</a></p></li>
-</ul></li>
-</ul>
-</div>
-<div id="第8章" class="section level2">
-<h2>第8章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap8.html">chap 8
-假设检验 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1L54y1r73w/">Excel
-总体均值的Z检验：Z.test函数</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1uv411r7ws/">Excel
-总体均值的T检验</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1mr4y1w7yp/">Excel
-总体均值的T检验：P值法和临界值法</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1Zr4y1F7jK/">Excel
-两个总体方差比的F检验</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV16Z4y137HV/">Excel
-两个总体均值是否相等的T检验</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1mD4y1Q77U/">EXCEL
-匹配样本的T检验</a></p></li>
-</ul></li>
-<li><p>疑难知识点</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1F64y1C7nq/?p=1">什么是P值</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1F64y1C7nq/?p=2">显著性水平和P值的区别</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1F64y1C7nq/?p=3">总体均值的检验：Z检验还是T检验</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1F64y1C7nq/?p=4">单侧检验还是双侧检验</a></p></li>
-</ul></li>
-<li><p>教材习题讲评</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1dM4y1t7Xw/">8.1-8.8</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV12h411L74S/">8.9-8.15</a></p></li>
-</ul></li>
-</ul>
-</div>
-<div id="第9章" class="section level2">
-<h2>第9章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap9.html">chap 9
-独立性检验 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1454y167ko/">EXCEL
-拟合优度检验 CHISQ.TEST函数的使用</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV19A411x7EU/">EXCEL
-独立性检验 CHISQ.TEST函数的使用</a></p></li>
-</ul></li>
-<li><p><a href="https://www.bilibili.com/video/BV1pu411s7SQ/">教材第9章习题讲评</a></p></li>
-</ul>
-</div>
-<div id="第10章" class="section level2">
-<h2>第10章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap10.html">chap 10
-方差分析 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1nf4y1v71b/">EXCEL
-单因素方差分析</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV18v411t7Hb/">EXCEL
-双因素方差分析</a></p></li>
-</ul></li>
-<li><p><a href="https://www.bilibili.com/video/BV1ok4y1H7FJ/">教材第10章习题讲评</a></p></li>
-</ul>
-</div>
-<div id="第11章" class="section level2">
-<h2>第11章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap11.html">chap 11
-相关和回归分析 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV15v411b7B9/">EXCEL相关回归分析的函数工具</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV13v411b7EU/">EXCEL数据分析工具库中的回归分析</a></p></li>
-</ul></li>
-<li><p><a href="https://www.bilibili.com/video/BV1Lu411W7wZ/">教材第11章习题讲评</a></p></li>
-</ul>
-</div>
-<div id="第13章" class="section level2">
-<h2>第13章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap13.html">chap 13
-时间序列 讲义</a></p></li>
-<li><p>Excel操作</p>
-<ul>
-<li><p><a href="https://www.bilibili.com/video/BV1c5411p7ob/">Excel指数平滑法–规划求解</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1nK411M7k6/">Excel趋势型序列的预测</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1nv41147VE/">ExcelEXCEL
-散点图添加非线性回归方程</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV19V411h7aV/">Excel复合型时间序列分解预测之一：季度数据</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1Ry4y1v7Et/">复合型时间序列分解预测之二：月度数据</a></p></li>
-</ul></li>
-<li><p><a href="https://www.bilibili.com/video/BV13c41137ym/">教材第13章习题讲评</a></p></li>
-</ul>
-</div>
-<div id="第14章" class="section level2">
-<h2>第14章</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/stat/chap14.html">chap 14
-指数 讲义</a></p></li>
-<li><p>疑难知识点</p>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV17r4y1T7CP/">为什么要把名义收入转换为实际收入？</a></li>
-</ul></li>
-</ul>
-</div>
-<div id="复习" class="section level2">
-<h2>复习</h2>
-<ul>
-<li><a href="https://www.bilibili.com/read/cv18736744">知识点
-mindmap</a></li>
-</ul>
-</div>
-</div>
-<div id="实验课素材" class="section level1">
-<h1><strong>实验课素材</strong></h1>
-<div id="第1讲-spss图表工具" class="section level2">
-<h2>第1讲 SPSS图表工具</h2>
-<ul>
-<li><a href="https://lizongzhang.github.io/statspss/spss1.html">讲义</a></li>
-</ul>
-</div>
-<div id="第2讲-spss描述性统计量的计算" class="section level2">
-<h2>第2讲 SPSS描述性统计量的计算</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/statspss/spss2.html">讲义</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1TV411F7Dc/">习题讲评</a></p></li>
-</ul>
-</div>
-<div id="第3-4讲-三大分布" class="section level2">
-<h2>第3-4讲 三大分布</h2>
-<ul>
-<li><p><a href="https://lizongzhang.github.io/statspss/spss3.html">讲义</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1TV411F7Dc/">第1-4题讲评</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV1Kw41167cb/">第5-8题讲评</a></p></li>
-<li><p><a href="https://www.bilibili.com/video/BV19Z4y1G7qF/">第9题讲评</a></p></li>
-</ul>
-</div>
-<div id="第5讲-区间估计" class="section level2">
-<h2>第5讲 区间估计</h2>
-<ul>
-<li><a href="https://lizongzhang.github.io/statspss/spss5.html">讲义</a></li>
-</ul>
-</div>
+<div id="习题" class="section level1">
+<h1><strong>习题</strong></h1>
+<p>置信水平的理解</p>
+<p>总体服从均值为30，标准差为3的正态分布。</p>
+<p>从总体中抽取36个个体，组成一个样本容量为36的样本，利用该样本构造总体均值的95%的置信区间。重复该过程200次，利用这200个样本构造200个90%的置信区间。计算这200个置信区间中包含总体均值的比例是多少？</p>
+<p>从总体中抽取36个个体，组成一个样本容量为36的样本，利用该样本构造总体均值的95%的置信区间。重复该过程200次，利用这200个样本构造200个95%的置信区间。计算这200个置信区间中包含总体均值的比例是多少？</p>
+<p>从总体中抽取36个个体，组成一个样本容量为36的样本，利用该样本构造总体均值的95%的置信区间。重复该过程200次，利用这200个样本构造200个99%的置信区间。计算这200个置信区间中包含总体均值的比例是多少？</p>
 </div>
 </section>
 
